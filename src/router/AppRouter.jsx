@@ -1,4 +1,5 @@
 import React from 'react';
+import { Navbar } from 'react-bootstrap';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { AdminScreen } from '../admin/pages/AdminScreen';
@@ -11,6 +12,7 @@ export const AppRouter = () => {
 	return (
 		//Router principal
 		<BrowserRouter>
+			<Navbar />
 			<Routes>
 				<Route path="/login" element={<LoginScreen />} />
 

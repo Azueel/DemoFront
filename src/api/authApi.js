@@ -1,6 +1,6 @@
 import axios from 'axios';
 const authApi = axios.create({
-	baseURL: 'http://localhost:5001/api',
+	baseURL: 'https://tiendaalejo.up.railway.app/api',
 });
 
 authApi.interceptors.request.use((config) => {

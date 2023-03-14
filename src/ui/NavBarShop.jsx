@@ -12,17 +12,17 @@ export const NavBarShop = () => {
 				</li>
 				<li>
 					<NavLink className="text-white" to="/pedido">
-						home
+						PEDIDO
 					</NavLink>
 				</li>
 				<li>
 					<NavLink className="text-white" to="/admin">
-						home
+						ADMIN
 					</NavLink>
 				</li>
 				<li>
 					<NavLink className="text-white" to="/login">
-						home
+						login
 					</NavLink>
 				</li>
 			</ul>

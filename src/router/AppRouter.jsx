@@ -1,6 +1,7 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { NavBarShop } from '../ui/NavBarShop';
 
 import { AdminScreen } from '../admin/pages/AdminScreen';
 import { LoginScreen } from '../auth/pages/LoginScreen';
@@ -11,8 +12,9 @@ import { Pedido } from '../home/pages/Pedido';
 export const AppRouter = () => {
 	return (
 		//Router principal
+
 		<BrowserRouter>
-			<Navbar />
+			<NavBarShop />
 			<Routes>
 				<Route path="/login" element={<LoginScreen />} />
 
